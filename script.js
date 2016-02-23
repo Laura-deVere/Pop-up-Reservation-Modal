@@ -4,12 +4,6 @@ function overlay(){
 }
 
 // TOOGLE VIEWS
-$(document).ready(function() {
-  $('#gifting').click(function() {
-    $(this).slideToggle();
-  });
-});
-
 var divs = ["toggle-reservation-details", "gifting", "card-payment"];
 var visibleDivId = null;
 function toggleVisibility(divId) {
@@ -19,20 +13,25 @@ function toggleVisibility(divId) {
 		}
 			hideNonVisibleDivs();
 }	
-// toggleVisibility('gifting');
+
 function hideNonVisibleDivs() {
 	var i, divId, div;
 		for(i = 0; i < divs.length; i++) {
 			divId = divs[i];
 			div = document.getElementById(divId);
 		if(visibleDivId === divId) {
-			div.style.display = "block";
+			$(document).ready(function(){
+				$(visibleDivId).slideUp("slow").hide();
+   				$(div).slideDown("fast").show();
+			});
+			// div.style.display = "block";	
 		} else {
 			div.style.display = "none";
 		}
 	}
 }
 
+// toggleVisibility('gifting');
 // TOGGLE DOT color
 
 var dots = ["first-dot", "sec-dot", "third-dot"];

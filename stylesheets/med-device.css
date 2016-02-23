@@ -121,11 +121,14 @@
 		font-size: 10px;
 	}
 	.trpl-btn.cp-gift-btn{
-		left: 101px;
+		left: 91px;
+	}
+	#message {
+		height: 46px;
 	}
 }
 
-@media all and (min-width: 667px) and (max-width: 1024px) {
+@media all and (min-width: 700px) and (max-width: 849px) {
 	#rdio-btn-1 {
 		left: 94px;
 	}
@@ -138,8 +141,41 @@
 	div#gifting a {
 		right: 177px;
 	}
+	.trpl-btn.cp-gift-btn {
+		left: 101px;
+	}	
+	#cc-icon {
+		left: 20px;
+	}
 }
 
+@media all and (min-width: 850px) and (max-width: 1024px) {
+	div#overlay-content {
+		width: 65%;
+	}
+	.trpl-btn.cp-gift-btn {
+		left: 106px;
+	}
+	#rdio-btn-1 {
+		left: 105px;
+	}
+	#rdio-btn-2 {
+		left: 191px;
+	}
+	#rdio-btn-3 {
+		left: 277px;
+	}
+	div#gifting a {
+		right: 180px;
+	}
+	#cc-icon {
+		left: 22px;
+	}
+}
+
+@media all and (min-width: 1025px) and (max-width: 1075px) {
+	
+}
 
 
 

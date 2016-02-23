@@ -118,7 +118,10 @@
 		font-size: 10px;
 	}
 	.trpl-btn.cp-gift-btn{
-		left: 64px;
+		left: 91px;
+	}
+	#message {
+		height: 46px;
 	}
 }
 @media all and (min-width: 450px) and (max-width: 475px) {
@@ -207,6 +210,4 @@
     left: 104px;
 	}
 }
-
-
 
