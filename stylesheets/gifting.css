@@ -1,0 +1,111 @@
+#gifting {
+	display: none;
+}
+
+#gifting p {
+	font-size: 10px;
+	display: inline-block;
+}
+
+#gifting a {
+	font-size: 10px;
+	color: #e68443;
+	position: absolute;
+  bottom: 65px;
+  right: 270px;
+}
+
+#gift-images {
+	position: relative;
+}
+
+#gift-images form {
+	position: absolute;
+	left: 3px;
+	bottom: -32px;
+}
+
+#gift-images form p {
+	position: absolute;
+	display: inline;
+	bottom: -20px;
+  width: 53px;
+  height: 53px;
+  font-size: 26px;
+  text-align: center;
+  color: #b7b7b7;
+  border-radius: 53px;
+  background: rgba(255,255,255, 0.3);
+}
+
+#rdio-btn-1 {
+	left: 115px;
+	cursor: pointer;
+}
+
+#rdio-btn-2 {
+	left: 262px;
+	cursor: pointer;
+}
+
+#rdio-btn-3 {
+	left: 406px;
+	cursor: pointer;
+}
+
+#lg-gift-price {
+	padding-top: 22px;
+	font-size: 11px;
+}
+
+#lg-gift-price span {
+	padding-left: 2px;
+  padding-right: 3px;
+  margin-left: 57px;
+  margin-right: 53px;
+  text-align: center;
+}
+
+#sm-gift-price {
+	padding-top: 1px;
+	font-size: 9px;
+	color: #b7b7b7;
+}
+
+#sm-gift-price span {
+	padding-left: 2px;
+  padding-right: 3px;
+  margin-left: 57px;
+  margin-right: 53px;
+  text-align: center;
+}
+
+#gift-images input {
+	visibility: hidden;
+	width: 115px;
+  height: 34px;
+}
+
+.dbl-btn {
+	height: 43px;
+	margin: 0;
+	padding: 0;
+	background-color: #e68443;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	position: absolute;
+	bottom: 0;
+}
+
+.dbl-btn.gift-res-btn {
+	left: 0;
+	width: 50%;
+	background-color: #fae6d9;
+	color: #e68443;
+}
+
+.dbl-btn.gift-pay-btn {
+	right: 0;
+	width: 50%;
+}

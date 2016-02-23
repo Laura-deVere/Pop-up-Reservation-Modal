@@ -1,0 +1,183 @@
+/*ORANGE #e68443*/
+/*lighter orange #f7dac6*/
+/*lightest orange #fae6d9*/
+#overlay {
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	z-index: 1000;	
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#overlay-content {
+	width: 65%;
+	height: 430px;
+	position: relative;
+	margin: 100px auto;
+	background-color: #fff;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+#overlay-content h3 {
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+#overlay-content h1 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 2.5em;
+	padding-top: 25px;
+	margin: 10px;
+}
+
+#first-dot {
+ background-color: #e68443;
+}
+
+#sec-dot,
+#third-dot{ 
+	background-color: #b7b7b7;
+}
+
+#first-dot,
+#sec-dot,
+#third-dot {
+	width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  font-size: 1px;
+  color: #fff;
+  line-height: 5px;
+  /*background-color: #ccc;*/
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/*SUMMARY SECTION*/
+#summary {
+	width: 29.8%;
+	height: 100%;
+	display: inline-block;
+	margin: 0;
+	padding-top: 55px;
+	font-size: 10px;
+}
+
+#tilde {
+	font-size: 30px;
+	font-weight: 300;
+	color: #ccc;
+	line-height: 5px;
+	margin: 0; 
+}
+
+#party-summary {
+	width: 55%;
+  height: 100px;
+  margin: 7px auto;
+  font-size: 12px;
+}
+
+#attendance {
+	width: 85%;
+	margin: 0 auto;
+	color: #b7b7b7;
+	text-align: center;
+}
+
+#ppp {
+	width: 49%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #b7b7b7;
+}
+
+#attendees {
+	width: 49%;
+	height: 50px;
+	float: right;
+}
+
+#ppp p,
+#attendees p {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#p-p-p,
+#total-attending {
+	color: black;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 13px;
+  font-weight: bold;
+}
+
+#price-summary {
+	width: 29.8%;
+	height: 32%;
+	margin: 0;
+	font-size: 9px;
+	background-color: #fae6d9;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#gift-total,
+#tickets-total,
+#fees-total {
+	float: right;
+}
+
+.summary-list {
+	text-align: left;
+  font-size: 11px;
+  width: 87%;
+  margin: 0 auto;
+  padding: 23px 10px;
+  line-height: 10px;
+}
+
+.total {
+	background-color: #f7dac6;
+	width: 89%;
+	height: 29px;
+  margin: -13px auto 10px auto;
+  color: #e68443;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px 10px 0 10px;
+}
+
+#grand-total {
+	float: right;
+}
+
+#rdio-btn-1.toggled,
+#rdio-btn-2.toggled,
+#rdio-btn-3.toggled {
+	color: #e68443;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

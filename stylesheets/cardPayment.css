@@ -1,0 +1,142 @@
+#card-payment {
+	display: none;
+	margin-top: 10px;
+}
+
+#card-payment form {
+	width: 95%;	
+	height: 52%;
+	margin: 0;
+	padding-left: 25px;
+	display: inline-block;
+	font-size: 9px;
+}
+
+.card-label {
+	display: inline-block;
+  height: 80px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+#card-num-label label {
+	text-align: left;
+  padding-bottom: 6px;
+  display: inherit;
+}
+
+.card-label label {
+	text-align: left;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+#card-payment input {
+	margin-right: 6px;
+	height: 20px;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+}
+
+#card-num {
+	width: 89%;
+	padding-left: 36px;
+}
+
+#card-name {
+	width: 92%;
+	padding-left: 7px;
+}
+
+#card-name-label {
+	width: 47%;
+	margin-left: -16px;
+}
+
+#cc-icon {
+  position: absolute;
+  left: 39px;
+  top: 166px;
+  font-size: 23px;
+  color: #e68443;
+}
+
+#card-exp {
+	width: 86%;
+	padding-left: 5px;
+}
+
+#card-cvv,
+#card-zip  {
+	width: 90%;
+	padding-left: 5px;
+}
+
+#card-exp-label {
+	width: 14%;
+	margin-right: 6px;
+}
+
+#card-cvv-label {
+	width: 7%;
+	margin-right: 12px;
+}
+
+#card-zip-label {
+	width: 25%;
+	/*margin-right: 6px;*/
+}
+
+#info-secure {
+ font-size: 10px;
+ color: #b7b7b7;
+}
+
+#info-secure i {
+	font-size: 18px;
+  color: black;
+  padding-right: 4px;
+}
+
+.trpl-btn {
+	height: 43px;
+	margin: 0;
+	padding: 0;
+	background-color: #e68443;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	position: absolute;
+	bottom: 0;
+}
+
+.trpl-btn.cp-res-btn {
+	color: #e68443;
+	background-color: #fae6d9;
+	width: 25%;
+	left: 0;
+}
+
+.trpl-btn.cp-gift-btn {
+	color: #e68443;
+	background-color: #f7dac6;
+	width: 25%;
+	left: 146px;
+}
+
+.trpl-btn.cp-buy-btn {
+	color: #fff;
+	background-color: #e68443;
+	width: 50%;
+}
+/*ORANGE #e68443*/
+/*lighter orange #f7dac6*/
+/*lightest orange #fae6d9*/
+
+
+
+
+
+
+

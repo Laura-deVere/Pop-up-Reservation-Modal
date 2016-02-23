@@ -1,0 +1,212 @@
+@media all and (min-width: 375px) and (max-width: 667px) {
+  div#overlay-content {
+		width: 100%;
+		margin-top: 10px;
+		height: 390px;
+	}
+	#overlay-content h1{
+		font-size: 2em;
+		font-size: 1.5em;
+	}
+	form#attendee-info {
+		padding: 0;
+	}
+	div#toggle-reservation-details {
+		width: 100%;
+	}
+	div#reservation-details {
+		width: 64%;
+	}
+	div#summary {
+		width: 35%;
+		padding-top: 15px;
+	}
+	#party-summary {
+		width: 63%;
+		font-size: 10px;
+	}
+	div#attendance {
+		margin: 7px auto;
+	}
+	div.summary-list {
+		width: 86%;
+		padding: 17px 10px;
+	}
+	div#price-summary {
+		width: 35.8%;
+		font-size: 12px;
+	}
+	div.total {
+		width: 81%;
+	}
+	div#gifting p {
+		margin-top: 0px;
+	}
+	div#gifting a {
+		bottom: 0;
+		right: 107px;
+		top: 317px;
+	}
+	div#gift-images {
+		margin-top: 0px;
+	}
+	div#gift-images img {
+		height: 80px;
+		width: 82px;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+	#gift-images form p {
+		bottom: -7px;
+		width: 38px;
+		height: 38px;
+		font-size: 23px;
+	}
+	#rdio-btn-1 {
+		left: 23px;
+	}
+	#rdio-btn-2 {
+		left: 106px;
+	}
+	#rdio-btn-3 {
+		left: 192px;
+	}
+	div#lg-gift-price span {
+		margin: 0;
+		padding-left: 20px;
+		padding-right: 34px;
+	}
+	div#sm-gift-price span {
+		margin: 0;
+		padding-left: 23px;
+		padding-right: 38px;
+	}
+	#card-payment form {
+		padding-left: 5px;
+	}
+	#cc-icon {
+		left: 15px;
+		top: 149px;
+	}
+	#card-num {
+		width: 80%;
+		padding-left: 29px;
+	}
+	#card-name-label {
+		width: 38%;
+		margin-left: -5px;
+	}
+	#card-name {
+		width: 80%;
+	}
+	#card-zip {
+		width: 68%;
+	}
+	#card-cvv-label {
+		width: 9%;
+	}
+	#card-exp {
+		width: 69%;
+	}
+	button#continue-btn {
+		font-size: 10px;
+	}
+	button.dbl-btn {
+		font-size: 10px;
+	}
+	.trpl-btn {
+		font-size: 10px;
+	}
+	.trpl-btn.cp-gift-btn{
+		left: 64px;
+	}
+}
+@media all and (min-width: 450px) and (max-width: 475px) {
+	#rdio-btn-1 {
+		left: 38px;
+	}
+	#rdio-btn-2 {
+		left: 125px;
+	}
+	#rdio-btn-3 {
+		left: 208px;
+	}
+	div#gifting a {
+		right: 107px;
+	}
+}
+
+@media all and (min-width: 476px) and (max-width: 530px) {
+	#rdio-btn-1 {
+		left: 54px;
+	}
+	#rdio-btn-2 {
+		left: 133px;
+	}
+	#rdio-btn-3 {
+		left: 218px;
+	}
+	div#gifting a {
+		right: 134px;
+	}
+	.trpl-btn.cp-gift-btn {
+    left: 83px;
+	}
+}
+
+@media all and (min-width: 531px) and (max-width: 575px) {
+	#rdio-btn-1 {
+		left: 66px;
+	}
+	#rdio-btn-2 {
+		left: 148px;
+	}
+	#rdio-btn-3 {
+		left: 230px;
+	}
+	div#gifting a {
+		right: 148px;
+	}
+	.trpl-btn.cp-gift-btn {
+    left: 86px;
+	}
+}
+
+@media all and (min-width: 576px) and (max-width: 645px) {
+	#rdio-btn-1 {
+		left: 85px;
+	}
+	#rdio-btn-2 {
+		left: 165px;
+	}
+	#rdio-btn-3 {
+		left: 248px;
+	}
+	div#gifting a {
+		right: 160px;
+	}
+	.trpl-btn.cp-gift-btn {
+    left: 104px;
+	}
+}
+
+@media all and (min-width: 646px) and (max-width: 667px) {
+	#rdio-btn-1 {
+		left: 106px;
+	}
+	#rdio-btn-2 {
+		left: 188px;
+	}
+	#rdio-btn-3 {
+		left: 273px;
+	}
+	div#gifting a {
+		right: 184px;
+	}
+	.trpl-btn.cp-gift-btn {
+    left: 104px;
+	}
+}
+
+
+

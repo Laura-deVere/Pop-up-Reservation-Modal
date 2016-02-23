@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/res.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/gifting.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/cardPayment.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/small-device.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/med-device.css">
+		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<a href='#' onclick='overlay();'>Show Content</a>
+		<div id="overlay">
+				<a href='#' onclick='overlay();'>X</a>
+			<div id="overlay-content">				
+				<div id="reservation-details">
+					<div id="party-image">
+						<h1>Hsin's Awesome Party</h1>
+					</div>
+					<h3 id="div-header">Reservation Details</h3>
+						<div id="first-dot"></div>
+						<div id="sec-dot"></div>
+						<div id="third-dot"></div>
+										<!-- RESERVATION DETAILS -->
+					<div id="toggle-reservation-details">	
+					<form name="attendee-info" id="attendee-info">
+						<div class="form-left">
+							<label>FIRST NAME</label><br>
+							<input type="text" name="usrfirstname"><br><br>
+							<label>EMAIL ADDRESS</label><br>
+							<input type="email" name="usremail"><br><br>
+								<label>MESSAGE</label><br>
+						</div>
+						<div class="form-right">
+							<label>LAST NAME</label><br>
+							<input type="text" name="usrlastname"><br><br>
+							<label>PHONE NUMBER</label><br>
+							<input type="tel" name="usrphone"><br><br>
+						</div>
+							<input type="text" name="usrmessage" id="message" placeholder="Leave message for Hsin...">
+					</form>
+						<div>
+						<button type="button" id="continue-btn" onclick="toggleDotColor('sec-dot');changeHeader('div-header', 'Gifting');toggleVisibility('gifting');">Continue to Gifting</button>
+						</div>
+					</div>
+					<!-- GIFTING	 -->
+					<div id="gifting">
+						<p>Please chip into a gift(s) into the registry:</p>
+						<div id="gift-images">
+							<img src="http://placehold.it/140x100">
+							<img src="http://placehold.it/140x100">
+							<img src="http://placehold.it/140x100">
+							<form name="gifting-form">
+								<input type="radio" value="Price">
+									<p id="rdio-btn-1" onclick="selectGift('rdio-btn-1')">
+										<i class="ion-ios-circle-outline"></i>
+									</p>
+								<input type="radio" value="Price">	
+									<p id="rdio-btn-2" onclick="selectGift('rdio-btn-2')">
+										<i class="ion-ios-circle-outline"></i>
+									</p>
+								<input type="radio" value="Price">
+									<p id="rdio-btn-3" onclick="selectGift('rdio-btn-3')">
+										<i class="ion-ios-circle-outline"></i>
+									</p>
+								<input type="submit" value="Submit">
+							</form>
+						</div>
+						<div id="lg-gift-price">
+								<span id="gft-1-price">$0.00</span>
+								<span id="gft-2-price">$0.00</span>
+								<span id="gft-3-price">$0.00</span>
+							</div>
+							<div id="sm-gift-price">
+								<span id="gft-1-price">$0.00</span>
+								<span id="gft-2-price">$0.00</span>
+								<span id="gft-3-price">$0.00</span>
+							</div>
+						<a href="#" id="skip-step" onclick="toggleVisibility('card-payment');toggleDotColor('third-dot');changeHeader('div-header', 'Payments');">Skip this step</a>
+						<div class="button-container">
+							<button type="button" class="dbl-btn gift-res-btn" id="back-res-btn" onclick="toggleVisibility('toggle-reservation-details');toggleDotColor('first-dot');changeHeader('div-header', 'Reservation Details');">< Reservation Details</button>
+							<button type="button" class="dbl-btn gift-pay-btn" id="to-payments-btn" onclick="toggleVisibility('card-payment');toggleDotColor('third-dot');changeHeader('div-header', 'Payments');">Continue to Payments</button>
+						</div>
+					</div>	
+					<!-- CARD PAYMENT -->
+					<div id="card-payment">
+						<form name="card-payment-details">
+							<div id="card-num-label">
+								<label>CARD NUMBER</label>
+								<input type="number" size="12" id="card-num"><br><br>
+								<i class="ion-card" id="cc-icon"></i>
+							</div>	
+								<div id="card-name-label" class="card-label">
+									<label>NAME AS IT APPEARS ON CARD</label>
+									<input type="text" id="card-name">
+								</div>
+								<div id="card-exp-label" class="card-label">
+									<label>EXPIRES</label>
+									<input type="text" id="card-exp" placeholder="MM/YY" size="5">
+								</div>
+								<div id="card-cvv-label" class="card-label">
+									<label>CVV</label>
+									<input type="number" id="card-cvv">
+								</div>
+								<div id="card-zip-label" class="card-label">
+									<label>BILLING ZIP CODE</label>
+									<input type="text" id="card-zip">
+								</div>	
+						</form>
+						<div id="info-secure">
+							<p><i class="ion-android-lock"></i>Your info is secured.  We do not store your data.</p>
+						</div>
+						<div class="button-container">
+							<button type="button" class="trpl-btn cp-res-btn" id="back-res-btn" onclick="toggleVisibility('toggle-reservation-details');toggleDotColor('first-dot');changeHeader('div-header', 'Reservation Details');">< Reservations</button>
+							<button type="button" class="trpl-btn cp-gift-btn" id="to-payments-btn" onclick="toggleVisibility('gifting');toggleDotColor('sec-dot');changeHeader('div-header', 'Gifting');">< Gifting</button>
+							<button type="submit" form="card-payment-details" class="trpl-btn cp-buy-btn">Buy Tickets</button>
+						</div>
+					</div>
+				</div>
+				<div id="summary">
+					<h2>SUMMARY</h2>
+					<p id="tilde">~</p>
+					<p id="party-summary">Hsin's Awesome Partay at Charcoal BYOB Restaurant is scheduled for January 31, 2016 at 8pm until 10.30pm.</p>
+					<div id="attendance">
+						<div id="ppp">
+							<p>PRICE PER PERSON</p>
+							<p id="p-p-p">75.00</p>
+						</div>
+						<div id="attendees">
+							<p># OF ATTENDEES</p>
+							<p id="total-attending">1</p>
+						</div>
+					</div>
+					<div id="price-summary">
+						<div class="summary-list">
+							<span>Gift </span>
+							<span id="gift-total">$0</span><br><br>
+							<span>Tickets</span>
+							<span id="tickets-total">$75.00</span><br><br>
+							<span>Fees</span>
+							<span id="fees-total">$2.25</span><br><br>
+						</div>
+						<div class="total">
+							<span>Total</span>
+							<span id="grand-total">$77.25</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

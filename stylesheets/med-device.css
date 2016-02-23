@@ -1,0 +1,149 @@
+@media all and (min-width: 667px) and (max-width: 1024px) {
+  div#overlay-content {
+		width: 85%;
+		margin: 100px auto;
+		height: 390px;
+	}
+	#overlay-content h1{
+		font-size: 2em;
+		font-size: 1.5em;
+	}
+	/*form#attendee-info {
+		margin-left: 13px;
+	}
+*/	div#toggle-reservation-details {
+		width: 100%;
+	}
+	div#reservation-details {
+		width: 64%;
+	}
+	div#summary {
+		width: 35%;
+		padding-top: 48px;
+	}
+	#party-summary {
+		width: 63%;
+		font-size: 11px;
+	}
+	div#attendance {
+		margin: 0 auto;
+	}
+	div.summary-list {
+		width: 86%;
+		padding: 17px 10px;
+	}
+	div#price-summary {
+		width: 35.8%;
+		font-size: 12px;
+	}
+	div.total {
+		width: 81%;
+	}
+	div#gifting p {
+		margin-top: 0px;
+	}
+	div#gifting a {
+		bottom: 0;
+		right: 153px;
+		top: 317px;
+	}
+	div#gift-images {
+		margin-top: 0px;
+	}
+	div#gift-images img {
+		height: 80px;
+		width: 82px;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+	#gift-images form p {
+		bottom: -7px;
+		width: 38px;
+		height: 38px;
+		font-size: 23px;
+	}
+	#rdio-btn-1 {
+		left: 75px;
+	}
+	#rdio-btn-2 {
+		left: 159px;
+	}
+	#rdio-btn-3 {
+		left: 245px;
+	}
+	div#lg-gift-price span {
+		margin: 0;
+		padding-left: 20px;
+		padding-right: 34px;
+	}
+	div#sm-gift-price span {
+		margin: 0;
+		padding-left: 23px;
+		padding-right: 38px;
+	}
+	#card-payment form {
+		padding-left: 5px;
+	}
+	#cc-icon {
+		left: 15px;
+		top: 149px;
+	}
+	#card-num {
+		width: 80%;
+		padding-left: 29px;
+	}
+	#card-name-label {
+		width: 38%;
+		margin-left: -20px;
+	}
+	#card-name {
+		width: 80%;
+	}
+	#card-zip {
+		width: 68%;
+	}
+	#card-zip-label {
+		margin-left: 9px;
+	}
+	#card-cvv-label {
+		width: 9%;
+	}
+	#card-exp {
+		width: 69%;
+	}
+	button#continue-btn {
+		font-size: 10px;
+	}
+	button.dbl-btn {
+		font-size: 10px;
+	}
+	.trpl-btn {
+		font-size: 10px;
+	}
+	.trpl-btn.cp-gift-btn{
+		left: 101px;
+	}
+}
+
+@media all and (min-width: 667px) and (max-width: 1024px) {
+	#rdio-btn-1 {
+		left: 94px;
+	}
+	#rdio-btn-2 {
+		left: 174px;
+	}
+	#rdio-btn-3 {
+		left: 262px;
+	}
+	div#gifting a {
+		right: 177px;
+	}
+}
+
+
+
+
+
+
+
+
